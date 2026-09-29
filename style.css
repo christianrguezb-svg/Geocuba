@@ -1,1 +1,33 @@
-/* estilos */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; }
+
+#map {
+  width: 100vw;
+  height: 70vh;
+}
+
+#pregunta-container {
+  padding: 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+#pregunta-texto {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#btn-siguiente {
+  padding: 10px 30px;
+  font-size: 1rem;
+  background: #2c5aa0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btn-siguiente:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
