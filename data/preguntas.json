@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 1,
+    "pregunta": "¿Dónde se fundó la primera villa de Cuba, Nuestra Señora de la Asunción de Baracoa?",
+    "respuesta": {
+      "lat": 20.348,
+      "lng": -74.496,
+      "provincia": "Guantánamo",
+      "municipio": "Baracoa"
+    }
+  }
+]
